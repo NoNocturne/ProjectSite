@@ -94,7 +94,8 @@ function addSkills() {
         'React',
         'Node.js',
         'Python',
-        'Git'
+        'Git',
+        'Абсолютная лень'
     ];
     
     let skillIndex = 0;
@@ -129,7 +130,7 @@ function showTime() {
         position: fixed;
         top: 20px;
         right: 20px;
-        background: rgba(0,0,0,0.8);
+        background: #764ba2 100%;
         color: white;
         padding: 10px;
         border-radius: 5px;
@@ -146,3 +147,4 @@ function showTime() {
     setInterval(updateTime, 1000);
 
 }
+
